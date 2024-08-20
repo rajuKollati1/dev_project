@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-frontend-image:latest
+        image: nginx:latest 
         ports:
         - containerPort: 8080
         env:
